@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Pedidos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/elementos_form.css">
+
+    <script src="js/script_cadastro_usuario.js" defer></script>
+</head>
+
+<body>
+    <main id="geral">
+        <header id="cabecalho">
+            <div id="logo">
+                <p>Meus Pedidos</p>
+            </div>
+            <nav id="menu">
+                <a href="cadastrocliente.html">Cadastro de Cliente</a>
+                <a href="cadastropedido.html">Cadastro de Pedidos</a>
+                <a href="index.html">Pedidos</a>
+            </nav>
+        </header>
+        <section id="conteudo">
+            <div id="form">
+                <h2>Cadastro Cliente</h2>
+                <div id="elementosform">
+
+                    <form  onSubmit="cadastroUsuario(event)">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" class="input" placeholder="nome" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" class="input" placeholder="Descrição" required>
+
+                        <button type="submit"> Cadastrar </button>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+        <footer id="rodape">
+            <p>&copy Sistema de Pedidos de 2024 - Criado por mim Alisson Freire </p>
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+label{
+    display: block;
+    padding: 10px 0px;    
+}
+
+input{
+    border-radius: 5px;
+    padding: 4px;
+    margin: 0px 8px;
+}
+
+form button{
+    display: block;
+    margin: 15px 8px;
+}
+
+button{
+    background-color: #084602;
+    color: #ffffff;
+    min-width: 60px;
+    height: 25px;
+    padding: 0px 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+select{
+    background-color: #d4ccccd2;
+    border: none;
+    min-width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mensagem{
+    width: 600px;
+    height: 200px;
+    margin: 80px auto;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem h2{
+    padding: 40px;
+}

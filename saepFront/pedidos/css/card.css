@@ -1,0 +1,30 @@
+#statuspedidos{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.status{
+    width: 33%;    
+}
+
+.card{
+    background-color:#e2dfdfd2;
+    margin: 15px 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.etiqueta{
+    display: block;
+}
+
+.btns, .opcaostatus{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px;
+    margin: 5px 0px;
+}
